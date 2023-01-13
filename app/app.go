@@ -23,7 +23,7 @@ type App struct {
 
 // New function creates and set up instance of App
 func New() (App, error) {
-	flag.StringVar(&dbUserName, "dbuser", "default", "Specify DB username (default name - default)")
+	flag.StringVar(&dbUserName, "dbuser", "default", "Specify DB username")
 	flag.StringVar(&dbPassword, "dbpass", "gfFrjbkVSPiB", "Specify DB password")
 	flag.Parse()
 
